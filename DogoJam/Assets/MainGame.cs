@@ -38,14 +38,14 @@ public class MainGame : MonoBehaviour
             currentwave = wavemanager[h];
             countdown = currentwave.CoolDownBeforeSpawn;
             yield return new WaitForSeconds(currentwave.CoolDownBeforeSpawn);
-            for (int j = 0; j < waveNumber; j++)
+            for (int j = 0; j < currentwave.EnemyCount; j++)
             {
 
                 SpawnEnemy(currentwave.Enemy,currentwave.spawnPoint);
                 yield return new WaitForSeconds(0.5f);
             }
 
-            waveNumber++;
+            currentwave.EnemyCount++;
             h++;
                 
             

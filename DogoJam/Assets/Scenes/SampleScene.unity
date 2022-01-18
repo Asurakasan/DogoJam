@@ -264,6 +264,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 286879190}
   Enemy: {fileID: 1796385780643500777, guid: 8600a47b88346b24a84a3aff37f73890, type: 3}
   CoolDownBeforeSpawn: 2
+  EnemyCount: 5
 --- !u!4 &217592449
 Transform:
   m_ObjectHideFlags: 0
@@ -340,6 +341,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 286879190}
   Enemy: {fileID: 1796385780643500777, guid: 8600a47b88346b24a84a3aff37f73890, type: 3}
   CoolDownBeforeSpawn: 5
+  EnemyCount: 0
 --- !u!4 &413395118
 Transform:
   m_ObjectHideFlags: 0
@@ -1008,6 +1010,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 286879190}
   Enemy: {fileID: 1796385780643500777, guid: 8600a47b88346b24a84a3aff37f73890, type: 3}
   CoolDownBeforeSpawn: 10
+  EnemyCount: 0
 --- !u!4 &1850118371
 Transform:
   m_ObjectHideFlags: 0

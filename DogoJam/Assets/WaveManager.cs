@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WaveManager : Ennemy
 {
-
+    public float EnemyCount;
 
 
     // Start is called before the first frame update
